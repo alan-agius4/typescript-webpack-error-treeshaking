@@ -1,4 +1,4 @@
-# Typescript Webpack Starter
+# Typescript Webpack Starter (With Webpack issue)
 [![Build Status](https://travis-ci.org/emyann/typescript-webpack-starter.svg?branch=develop)](https://travis-ci.org/emyann/typescript-webpack-starter)
 >A damn simple ES6 and Typescript Starter kit using webpack for packaging. Perfect for bootstraping your javascript project regardless any framework.
 
@@ -49,8 +49,3 @@ After build phase, 3 files are generated into the `dist` folder:
 - `app.bundle.js` - contains the core of the application. From the entry point `src/index.ts`
 - `vendor.bundle.js` - contains the vendor dependencies
 - `index.html` - html page with references to the 2 files above
-
-## TODO
-
-- [ ] Setup a webpack common configuration and use webpack-merge
-- [ ] `create-ts-app` or `create-typescript-app` CLI instead of cloning the entire repository
