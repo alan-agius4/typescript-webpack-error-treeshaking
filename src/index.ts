@@ -1,7 +1,5 @@
-export default class Main {
-    constructor() {
-        console.log('Typescript Webpack starter launched');
-    }
-}
+import { HelloWorldUsed } from "./vendor";
 
-let start = new Main();
+const helloWorld = (new HelloWorldUsed()).sayHello();
+
+export { HelloWorldUnused, HelloWorldUsed } from "./vendor";

@@ -1,4 +1,11 @@
-// Application Dependencies
+export class HelloWorldUnused {
+	sayHello () {
+		return "hello world";
+	}
+}
 
-import 'lodash';
-
+export class HelloWorldUsed {
+	sayHello () {
+		return "hello world";
+	}
+}
